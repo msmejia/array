@@ -15,10 +15,10 @@ es_primo <- function(Num){
     i=i+1
   }
   if(ndiv<=2){
-    p=1
+    p=TRUE
   }
   else{
-    p=0
+    p=FALSE
   }
   return(p)
 }
